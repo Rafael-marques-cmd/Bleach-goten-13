@@ -24,7 +24,7 @@ export function CaptainModal({ captain, isOpen, onClose }: CaptainModalProps) {
   const images =
     galleryMap[captain.id] && galleryMap[captain.id].length > 0
       ? galleryMap[captain.id]
-      : [fullMap[captain.id] ?? captain.imageUrl];
+      : [fullMap[captain.id] ?? captain];
 
   const [index, setIndex] = useState(0);
 

@@ -38,7 +38,7 @@ export function PersonagensPage({
               <div className="relative">
                 <div className="w-28 h-28 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-orange-500/50 group-hover:border-orange-500 transition-colors shadow-lg shadow-orange-500/20">
                   <ImageWithFallback
-                    src={thumbMap[captain.id] ?? captain.imageUrl}
+                    src={thumbMap[captain.id] ?? captain}
                     alt={captain.name}
                     className={
                       // Para 8ª divisão, aplicar mais zoom e focar mais no topo (mostrar rosto)
