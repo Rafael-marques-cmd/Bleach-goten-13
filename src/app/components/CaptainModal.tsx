@@ -55,7 +55,7 @@ export function CaptainModal({ captain, isOpen, onClose }: CaptainModalProps) {
             {/* Header with Image */}
             <div className="flex flex-col md:flex-row gap-6">
               <div className="flex-shrink-0">
-                <div className="w-64 h-64 aspect-square rounded-lg overflow-hidden border-4 border-orange-500/50 shadow-lg shadow-orange-500/20">
+                <div className="w-66 h-78 aspect-square rounded-lg overflow-hidden border-4 border-orange-500/50 shadow-lg shadow-orange-500/20">
                   {captain.division === 3 ||
                   captain.division === 6 ||
                   captain.division === 7 ||
