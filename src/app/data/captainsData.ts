@@ -24,7 +24,7 @@ export const captains: Captain[] = [
     curiosities: [
       "É a comandante das Forças Especiais Secretas",
       "Foi treinada por Yoruichi Shihōin, a quem é extremamente leal",
-      "Seu Bankai é o oposto de sua personalidade - grande e explosivo",
+      "Seu Bankai é o oposto da sua zanpakuto - grande e explosivo",
       "Pode matar com apenas dois golpes da sua Shikai",
       "É uma das shinigamis mais rápidas do Gotei 13",
     ],
